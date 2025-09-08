@@ -11,7 +11,7 @@
 4. Enable Google Sheets API
 5. Create a Service Account (IAM & Admin → Service Accounts → Create → Key → JSON)
 6. Download JSON (it will contain "type": "service_account")    
-7. Save that JSON in storage/google/credentials.json
+7. Save that JSON in storage/google/credentials.json (Note: Available credentials.json in this project is sample create your own json file and store that place)
 8. Create New SpreadSheet and add data for example : https://docs.google.com/spreadsheets/d/1efhCwABHI5KKXisqFrdgFIWpeSotikgO7c3uWqlQTzo/edit?gid=0#gid=0
 9. get that SpreadsheetId and Save into File : SyncGoogleSheet.php    
 10. If you want to Run via Schedular then Set in Console/Kernel.php
